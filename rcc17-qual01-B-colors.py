@@ -52,10 +52,9 @@ for tnum in range(0, t):
     if ans == "YES":
         print(ans)
         for i in range(0, n):
-            print(*mat[i],'')
+            print(*mat[i])
     else:
         print("NO")
 
-    # for i in range(0, n):
-    #     print(*mat[i])
-
+        # for i in range(0, n):
+        #     print(*mat[i])
